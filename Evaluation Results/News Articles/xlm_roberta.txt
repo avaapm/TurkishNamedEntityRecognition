@@ -1,0 +1,12 @@
+1-Repeat:	F1: 0.95209	Precision: 0.95013	Recall: 0.95414	Val_loss: 0.04366	Time: 38.50091 min
+2-Repeat:	F1: 0.95191	Precision: 0.94945	Recall: 0.95444	Val_loss: 0.04223	Time: 38.58463 min
+3-Repeat:	F1: 0.9482	Precision: 0.94295	Recall: 0.95354	Val_loss: 0.04412	Time: 38.58306 min
+4-Repeat:	F1: 0.95143	Precision: 0.94642	Recall: 0.95652	Val_loss: 0.04365	Time: 38.535 min
+5-Repeat:	F1: 0.9509	Precision: 0.94769	Recall: 0.95414	Val_loss: 0.04306	Time: 38.53552 min
+6-Repeat:	F1: 0.94908	Precision: 0.94705	Recall: 0.95116	Val_loss: 0.05361	Time: 38.52516 min
+7-Repeat:	F1: 0.94404	Precision: 0.94032	Recall: 0.94789	Val_loss: 0.05319	Time: 38.66968 min
+8-Repeat:	F1: 0.94672	Precision: 0.94207	Recall: 0.95146	Val_loss: 0.05086	Time: 38.62391 min
+9-Repeat:	F1: 0.95202	Precision: 0.95023	Recall: 0.95384	Val_loss: 0.04455	Time: 38.61587 min
+10-Repeat:	F1: 0.94273	Precision: 0.93969	Recall: 0.9458	Val_loss: 0.05167	Time: 38.49847 min
+
+Avg. 10 Repeat F1-score: 0.94891	Precision: 0.9456	Recall: 0.95229	Loss: 0.04706	Time: 385.67221
