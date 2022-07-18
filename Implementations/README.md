@@ -1,6 +1,9 @@
 # Implementations in our paper
 
-NOTE: The implementation codes will be more structered soon.
+'data' folder contains dataset folders; however, we are not able to share the datasets without the permission of the original dataset curators.
+'fasttext' folder contains pretrained fasttext word embeddings in order to use in machine learning and deep learning models. You can download the word embeddings under 'fasttext' folder.
+
+NOTE: The implementation codes will be more structered soon. For now, please indicate the model name in the source codes following the directions.
 
 To run SVM and CRF:
 
