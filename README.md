@@ -1,6 +1,6 @@
 # Named entity recognition in Turkish: A comparative study with detailed error analysis
 
-This repository contains the results of each evaluation repeat and the details of statistical test result in the paper "Named entity recognition in Turkish: A comparative study with detailed error analysis". This study provides a comparative analysis on the performances of state-of-the-art approaches for Turkish named entity recognition using existing datasets with varying domains. The study includes a detailed error analysis that examines both quantitative (varying entity lengths and changing word orders) and qualitative (ambiguous entities and noisy texts) factors that can affect the model performance.
+This repository contains the implementation codes, results of each evaluation repeat, and the details of statistical test results in the paper "Named entity recognition in Turkish: A comparative study with detailed error analysis". This study provides a comparative analysis on the performances of the state-of-the-art approaches for Turkish named entity recognition using existing datasets with varying domains. The study includes a detailed error analysis that examines both quantitative (entity types, varying entity lengths, and changing word orders) and qualitative (ambiguous entities and noisy texts) factors that can affect the model performance.
 
 ## Evaluation Results
 
@@ -31,4 +31,4 @@ If you make use of this dataset, please cite following paper.
 
 ## Statistical test results
 
-Statistical test results, indicated in Table 3, are provided in our paper.
+Statistical test results, indicated in Table 3 and 4, are provided in our paper.
