@@ -134,11 +134,11 @@ def shuffle_dataset(a, b, random_seed):
     return a[p], b[p]
 
 
-news = ["../data/news/", "news_results"]
-wikiann = ["../data/wikiann/", "wikiann_results"]
-fbner = ["../data/fbner/", "fbner_results"]
-tweet = ["../data/twner/", "twner_results"]
-atis = ["../data/atisner/", "atisner_results"]
+news = ["data/news/", "news_results"]
+wikiann = ["data/wikiann/", "wikiann_results"]
+fbner = ["data/fbner/", "fbner_results"]
+tweet = ["data/twner/", "twner_results"]
+atis = ["data/atisner/", "atisner_results"]
 
 paths = [news, wikiann, fbner, tweet, atis]  # news, wikiann, fbner, tweet, atis
 
@@ -154,8 +154,8 @@ for path in paths:
     if not os.path.isdir(path[1]):
         os.mkdir(path[1])
 
-    data_train = pd.read_csv(path[0] + "train_SENTENCED.tsv", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
-    data_test = pd.read_csv(path[0] + "test_SENTENCED.tsv", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
+    data_train = pd.read_csv(path[0] + "train_SENTENCED.txt", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
+    data_test = pd.read_csv(path[0] + "test_SENTENCED.txt", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
 
     y_train = data_train.Tag.values
     classes = np.unique(y_train)
