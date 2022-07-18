@@ -1,5 +1,5 @@
-# Fasttext model folder
+# Fasttext Word Embeddings
 
-You should download the fasttext model file in this folder
+You can download the pretrained fasttext word embeddings from the following link:
 
-[Turkish pretrained fastText word embeddings](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.tr.300.bin.gz)
+[Pretrained fastText word embeddings](https://fasttext.cc/docs/en/crawl-vectors.html)
