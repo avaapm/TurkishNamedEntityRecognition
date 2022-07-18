@@ -6,4 +6,4 @@ Dataset folders: news, wikiann, twner, fbner, and atisner
 
 Txt files: train_CONLL.txt, test_CONLL.txt, train_SENTENCED.txt, and test_SENTENCED.txt
 
-We are not able to share the datasets; therefore, we added template txt files in the dataset folders in order to show the dataset files' formats for the experimental process.
+We are not able to share the datasets; therefore, we added template txt files in the dataset folders in order to show the dataset file formats for the experimental process.
