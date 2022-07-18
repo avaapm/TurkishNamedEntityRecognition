@@ -21,7 +21,6 @@ from tensorflow.keras import Sequential
 from crf_head import CRF
 
 from seqeval.metrics import precision_score, recall_score, f1_score, classification_report
-from zemberek import TurkishMorphology
 
 #  *********************************************************************************************************************
 #  HYPERPARAMETERS      HYPERPARAMETERS     HYPERPARAMETERS     HYPERPARAMETERS     HYPERPARAMETERS     HYPERPARAMETERS
@@ -43,7 +42,6 @@ REPEAT = 10  # How many times do you repeat training
 #  *********************************************************************************************************************
 
 tf.random.set_seed(SEED)
-morphology = TurkishMorphology.create_with_defaults()  # used for root extraction for embeddings
 
 news = ["data/news/", "news_results"]
 wikiann = ["data/wikiann/", "wikiann_results"]
@@ -65,12 +63,12 @@ for path in paths:
     #  LOAD DATASET     LOAD DATASET        LOAD DATASET        LOAD DATASET        LOAD DATASET        LOAD DATASET
     #  *****************************************************************************************************************
 
-    data = pd.read_csv(path[0] + "train_SENTENCED.tsv", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
-    tsv_file = open(path[0] + "train_SENTENCED.tsv", encoding="utf-8")
+    data = pd.read_csv(path[0] + "train_SENTENCED.txt", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
+    tsv_file = open(path[0] + "train_SENTENCED.txt", encoding="utf-8")
     read_tsv = csv.reader(tsv_file, delimiter='\t', quoting=csv.QUOTE_NONE)
 
-    data_TEST = pd.read_csv(path[0] + "test_SENTENCED.tsv", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
-    tsv_file_TEST = open(path[0] + "test_SENTENCED.tsv", encoding="utf-8")
+    data_TEST = pd.read_csv(path[0] + "test_SENTENCED.txt", encoding="utf-8", sep='\t', quoting=csv.QUOTE_NONE)
+    tsv_file_TEST = open(path[0] + "test_SENTENCED.txt", encoding="utf-8")
     read_tsv_TEST = csv.reader(tsv_file_TEST, delimiter='\t', quoting=csv.QUOTE_NONE)
 
     print('TRAIN_DATA:\n', data.head(10))
