@@ -1,0 +1,14 @@
+Ankara B-LOC
+'ya O
+gidiş O
+dönüş O
+yolculuk O
+yapmak O
+istiyorum O
+. O
+
+Ankara B-LOC
+Türkiye B-LOC
+'nin O
+başkentidir O
+. O
