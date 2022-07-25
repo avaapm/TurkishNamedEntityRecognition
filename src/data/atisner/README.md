@@ -1,5 +1,7 @@
 # ATISNER dataset
 
+train_SLOT and test_SLOT files are the versions containing slot filling labels.
+
 ```bibtex
 @inproceedings{Sahinuc:2020,
   author={Şahinuç, Furkan and Yücesoy, Veysel and Koç, Aykut},
