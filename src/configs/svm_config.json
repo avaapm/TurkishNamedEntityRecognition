@@ -1,0 +1,5 @@
+{
+  "num_train_iteration": 1000,
+  "loss": "hinge",
+  "fasttext_path": "/src/fasttext/cc.tr.300.bin"
+}

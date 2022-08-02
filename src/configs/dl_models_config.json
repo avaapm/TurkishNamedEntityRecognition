@@ -1,0 +1,13 @@
+{
+  "num_train_epochs": 20,
+  "learning_rate": 5e-3,
+  "fasttext_path": "/src/fasttext/cc.tr.300.bin",
+  "unit_size": 50,
+  "train_batch_size": 16,
+  "test_batch_size": 16,
+  "dropout": 0.0,
+  "embedding_dim": 300,
+  "dense_neuron_size": 100,
+  "cnn_filter_size": 100,
+  "cnn_kernel_size": 5
+}
