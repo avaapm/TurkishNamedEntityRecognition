@@ -52,11 +52,17 @@ $ python main.py test '/src/data/atisner/' '/models/berturk_crf/' berturk_crf -r
 ## Citation
 If you make use of this code, please cite the following paper:
 ```bibtex
-@misc{ozcelik_and_toraman2022ner,
-      title={Named entity recognition in Turkish: A comparative study with detailed error analysis}, 
-      author={Oguzhan Ozcelik and Cagri Toraman},
-      year={2022},
-      url={https://github.com/avaapm/TurkishNamedEntityRecognition/}
+@article{OZCELIK2022103065,
+    title = {Named entity recognition in Turkish: A comparative study with detailed error analysis},
+    journal = {Information Processing & Management},
+    volume = {59},
+    number = {6},
+    pages = {103065},
+    year = {2022},
+    issn = {0306-4573},
+    doi = {https://doi.org/10.1016/j.ipm.2022.103065},
+    url = {https://www.sciencedirect.com/science/article/pii/S0306457322001674},
+    author = {Oguzhan Ozcelik and Cagri Toraman},
+    keywords = {Comparative analysis, Error analysis, Named entity recognition, Deep learning model, Turkish text, Transformer-based language model}
 }
-
 ```
