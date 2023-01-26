@@ -1,6 +1,6 @@
 # ATISNER dataset
 
-We provide the ATISNER dataset that can be used for Turkish Named Entity Recognition researches. If you use `train.tsv` or `test.tsv` in your study please cite the following paper:
+We provide the ATISNER dataset that can be used for Turkish Named Entity Recognition. If you use `train.tsv` or `test.tsv` in your study please cite the following paper:
 
 ```bibtex
 @article{OZCELIK2022103065,
@@ -17,7 +17,7 @@ We provide the ATISNER dataset that can be used for Turkish Named Entity Recogni
   keywords = {Comparative analysis, Error analysis, Named entity recognition, Deep learning model, Turkish text, Transformer-based language model}}
 ```
 
-In addition to ATISNER dataset, we also provide its fine-grained version that can be used for Turkish Slot Filling researches. If you use `train_slot.tsv` or `test_slot.tsv` in your study please cite the following paper:
+In addition to ATISNER dataset, we also provide its fine-grained version that can be used for Turkish Slot Filling. If you use `train_slot.tsv` or `test_slot.tsv` in your study please cite the following paper:
 
 ```bibtex
 @inproceedings{Sahinuc:2020,
