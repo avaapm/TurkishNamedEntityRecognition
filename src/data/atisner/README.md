@@ -1,7 +1,23 @@
 # ATISNER dataset
 
-We provide the ATISNER dataset that can be used for Turkish Named Entity Recognition researches.
-In addition fine-grained classes of entities versions are provided (`train_slot.tsv` and `test_slot.tsv`), which can be used for Turkish Slot Filling researches.
+We provide the ATISNER dataset that can be used for Turkish Named Entity Recognition researches. If you use `train.tsv` or `test.tsv` in your study please cite the following paper:
+
+```bibtex
+@article{OZCELIK2022103065,
+  title = {Named entity recognition in Turkish: A comparative study with detailed error analysis},
+  journal = {Information Processing & Management},
+  volume = {59},
+  number = {6},
+  pages = {103065},
+  year = {2022},
+  issn = {0306-4573},
+  doi = {https://doi.org/10.1016/j.ipm.2022.103065},
+  url = {https://www.sciencedirect.com/science/article/pii/S0306457322001674},
+  author = {Oguzhan Ozcelik and Cagri Toraman},
+  keywords = {Comparative analysis, Error analysis, Named entity recognition, Deep learning model, Turkish text, Transformer-based language model}}
+```
+
+In addition to ATISNER dataset, we also provide its fine-grained version that can be used for Turkish Slot Filling researches. If you use `train_slot.tsv` or `test_slot.tsv` in your study please cite the following paper:
 
 ```bibtex
 @inproceedings{Sahinuc:2020,
